@@ -1,0 +1,5 @@
+[build]
+  # Static site (a saved WordPress page) — no framework or package manager.
+  # The build script unpacks the zipped assets and writes the site to dist/.
+  command = "bash netlify-build.sh"
+  publish = "dist"
